@@ -13,4 +13,4 @@ $ ./docker/build.bash
 $ ./docker/start-gollum.bash
 ```
 
-The visit http://192.168.1.100:4567/ (or whatever your docker-machine IP is).
+Then visit http://192.168.1.100:4567/ (or whatever your docker-machine IP is).
