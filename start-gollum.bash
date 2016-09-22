@@ -2,6 +2,7 @@
 
 cd `dirname $0`/..
 
+
 docker run \
     --name gollum \
     --volume $PWD:/wiki \

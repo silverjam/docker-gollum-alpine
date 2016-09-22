@@ -9,6 +9,6 @@ RUN apk add --update --virtual build-deps build-base icu-dev \
 VOLUME /wiki
 WORKDIR /wiki
 
-CMD ["gollum", "--port", "80"]
+CMD ["gollum", "--port", "80", "--css"]
 
 EXPOSE 80
